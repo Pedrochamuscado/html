@@ -1,0 +1,14 @@
+h1 {
+    border-style: dashed;
+    border-color: darkred;
+    width: 500px;
+    border-width: 10px;
+    padding: 25px;
+    background-color: lightgray;
+}
+
+a {
+    border-style: dashed;
+    border-color: darkred;
+    padding: 5px;
+}

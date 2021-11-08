@@ -1,0 +1,15 @@
+h1 {
+    font: italic bold 4em 'Work Sans', sans-serif;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 1.2em;
+}
+body {
+    text-align: center;
+    background-image: linear-gradient(90deg, red, rgb(145, 12, 12));
+}
+#corpo {
+    background-color: white;
+}

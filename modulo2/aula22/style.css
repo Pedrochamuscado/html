@@ -1,0 +1,30 @@
+a {
+    color: red;
+    text-decoration: none;
+}
+/*Sub classes*/
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:active {
+    color: rgba(255, 0, 0, 0.192);
+}
+/*Sub elementos*/
+
+.especial::after {
+    content: ' ☜';
+    font-weight: normal;
+    color: rgba(255, 0, 0, 0.185);
+}
+
+.especial::before {
+    content: ' ☜';
+    font-weight: normal;
+    color: rgba(255, 0, 0, 0.185);
+}
